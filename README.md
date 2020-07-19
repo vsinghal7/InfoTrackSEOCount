@@ -1,6 +1,6 @@
 # InfoTrackSEOCount
 
-Chrome version 84 is required to run this application.
+Chrome version 84 is required to run this application. Visual Studio 2019 is used to create this app.
 
 //Input required
 Input your search keyword in the keyword text box - "Online title search"
