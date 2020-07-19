@@ -3,12 +3,7 @@ using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.EnterpriseServices;
-using System.IO;
-using System.Linq;
-using System.Net;
 using System.Text.RegularExpressions;
-using System.Web;
 
 namespace InfoTrackSEOResultsCount.Models
 {
@@ -16,8 +11,7 @@ namespace InfoTrackSEOResultsCount.Models
     {
         public SearchOutput GetSearchResults(SearchInput searchInput)
         {
-            SearchOutput response = ProcessSearchResults(searchInput.URL, searchInput.Keyword);
-            //Creating the response
+            SearchOutput response = ProcessSearchResults(searchInput.URL, searchInput.Keyword);          
             return response;
         }
 
