@@ -11,7 +11,7 @@ Select Google search from radio button and then press Search.
 
 Result with the count will appear on next page in tabular format.
 
-Notes: I have used adaptor pattern in my application.
+Notes: I have used adapter pattern in my application.
 For now I have used radio button to switch between Bing and Google search but code is available for google search only.
 We can write another similar adaptor for Bing search or any other search in future.
 App is completely extendable, we can add a dropdown on the UI to select between different search engines if we have multiple search engine to choose from.
@@ -21,3 +21,4 @@ Path to screen shots.
 ![alt tag](https://raw.githubusercontent.com/vsinghal7/InfoTrackSEOCount/master/InfoTrackSEOResultsCount/SearchInput.PNG)
 
 ![alt tag](https://raw.githubusercontent.com/vsinghal7/InfoTrackSEOCount/master/InfoTrackSEOResultsCount/SearchOutput.PNG)
+I
