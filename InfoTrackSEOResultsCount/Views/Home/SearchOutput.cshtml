@@ -4,21 +4,32 @@
     ViewBag.Title = "SearchOutput";
 }
 
-<h2>View</h2>
-
 <div>
-    <h4>Your Company URL appeared in @Html.DisplayFor(model => model.SearchEngine) @Html.DisplayFor(model=>model.URLCount) times in first 100 results</h4>
+    <h4>Your input URL appeared on @Model.SearchEngine search as per the table below</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.URLCount)
-        </dt>
+    <table class="table">
+        <tr>
+            <th>
+                Page Number 
+            </th>
+            <th>
+                URL Count
+            </th>
+        </tr>
 
-        <dd>
-            @Html.DisplayFor(model => model.URLCount)
-        </dd>
+        @foreach (var item in Model.SearchResults)
+        {
+            <tr>
+                <td>
+                    @item.PageNumber
+                </td>
+                <td>
+                   @item.URLCount
+                </td>
+            </tr>
+        }
 
-    </dl>
+    </table>
 </div>
 <p>    
     @Html.ActionLink("Back to Search", "Search" )
