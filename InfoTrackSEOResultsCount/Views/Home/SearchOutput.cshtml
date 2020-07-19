@@ -1,0 +1,25 @@
+﻿@model InfoTrackSEOResultsCount.Models.SearchOutput
+
+@{
+    ViewBag.Title = "SearchOutput";
+}
+
+<h2>View</h2>
+
+<div>
+    <h4>Your Company URL appeared in @Html.DisplayFor(model => model.SearchEngine) @Html.DisplayFor(model=>model.URLCount) times in first 100 results</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.URLCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.URLCount)
+        </dd>
+
+    </dl>
+</div>
+<p>    
+    @Html.ActionLink("Back to Search", "Search" )
+</p>
