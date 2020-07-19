@@ -18,6 +18,6 @@ App is completely extendable, we can add a dropdown on the UI to select between 
 I have used autofac to inject the dependencies.
 I have used chrome webdriver to automate the google search by entering the search keywords. 
 Path to screen shots.
-![alt tag](https://github.com/vsinghal7/InfoTrackSEOCount/InfoTrackSEOResultsCount/SearchInput.PNG)
+![alt tag](https://raw.githubusercontent.com/vsinghal7/InfoTrackSEOCount/master/InfoTrackSEOResultsCount/SearchInput.PNG)
 
-![alt tag](https://github.com/vsinghal7/InfoTrackSEOCount/InfoTrackSEOResultsCount/SearchOutput.PNG)
+![alt tag](https://raw.githubusercontent.com/vsinghal7/InfoTrackSEOCount/master/InfoTrackSEOResultsCount/SearchOutput.PNG)
